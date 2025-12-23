@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #0B1220;
+  color: #E6EAF2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #121B2F;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.api-btn {
+  background: #1E5EFF;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(30,94,255,0.7);
+}
+
+.hero {
+  padding: 60px 40px;
+}
+
+.scanner, .api {
+  padding: 40px;
+}
+
+.card {
+  background: #121B2F;
+  padding: 24px;
+  max-width: 720px;
+  margin: auto;
+}
+
+textarea {
+  width: 100%;
+  height: 160px;
+  background: #0B1220;
+  border: 1px solid #1E5EFF;
+  color: white;
+  padding: 12px;
+}
+
+.scan-btn {
+  margin-top: 14px;
+  background: #1E5EFF;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 16px;
+  padding: 12px;
+  border-left: 4px solid #9AA4BF;
+}
+
+.result.ALLOW { border-color: #2ECC71; }
+.result.WARN { border-color: #F5A623; }
+.result.BLOCK { border-color: #E04F5F; }
+
+footer {
+  padding: 30px;
+  text-align: center;
+  color: #9AA4BF;
+}
